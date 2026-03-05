@@ -1,0 +1,49 @@
+.task-list {
+    display: grid;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 20;
+    grid-template-columns: 5% 30% 40% 20%;
+
+}
+.list-header {
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.list-items {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+.delete-item {
+    width: 50%;
+    padding: 6px;
+    background-color: red;
+    color:#fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.delete-item:hover {
+    background-color: #ac0909;
+}
+
+.update-item {
+    width: 50%;
+    padding: 6px;
+    background-color: green;
+    color:#fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+.update-item:hover {
+    background-color: rgb(3, 238, 3);
+}
